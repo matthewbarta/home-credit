@@ -15,23 +15,23 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
   4. Set the storage size to 16+ GB.
   
   5. Install scala using the following command: \
-   sudo apt-get install python scala ipython -y
+      sudo apt-get install python scala ipython -y
    
   6. Install spark with the following commands: \
-   wget http://archive.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz \
-   tar -zxvf spark-2.2.0-bin-hadoop2.7.tgz
+      wget http://archive.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz \
+      tar -zxvf spark-2.2.0-bin-hadoop2.7.tgz
    
   7. Open ~/.profile and append the following lines: \
-   export SPARK_HOME='/home/ubuntu/spark-2.2.0-bin-hadoop2.7' \
-   export PATH=$SPARK_HOME:$PATH \
-   export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH \
+      export SPARK_HOME='/home/ubuntu/spark-2.2.0-bin-hadoop2.7' \
+      export PATH=$SPARK_HOME:$PATH \
+      export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH \
    
   8. Run the following command: \
-   source ~/.profile \
-   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \
-   bash Anaconda3-4.2.0-Linux-x86_64.sh \
-   which python /usr/bin/python \
-   source .bashrc
+      source ~/.profile \
+      wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \
+      bash Anaconda3-4.2.0-Linux-x86_64.sh \
+      which python /usr/bin/python \
+      source .bashrc
    
   8. Open ipython and run the following commands:  \
   from IPython.lib import passwd \
