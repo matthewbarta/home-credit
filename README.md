@@ -1,5 +1,5 @@
 # Home Credit Default Risk Prediction:  A Comparison of LightGBM & XGBoost
-   Dania Etienne and Justin LoMonaco, Matthew Barta and Wesley Boyd
+   Dania Etienne, Justin LoMonaco, Matthew Barta, and Wesley Boyd
 
 # Motivation
 There are many consumers out there seeking loans, yet lacking the substantial credit history to easily show creditors whether or not the applicant is predictably reliable in paying back the loan. This is a problem that disproportionately affects college-aged students because they have not had an opportunity to build credit as they are just beginning their time as a young adult.  A solution to this would be to use readily available information about potential clients to create a profile of their likelihood to repay the loan based on the likelihood of previous clients with similar information. This would open up more channels of credit opportunity for those of us, like the members of this group, who might not otherwise have a chance to receive a loan due to lack of a credit history, despite being an ideal candidate to repay it back otherwise.
@@ -19,8 +19,8 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
    
   6. Install spark with the following commands:
    wget http://archive.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz
-   
    tar -zxvf spark-2.2.0-bin-hadoop2.7.tgz
+   
   7. Open ~/.profile and append the following lines:
    export SPARK_HOME='/home/ubuntu/spark-2.2.0-bin-hadoop2.7'
    export PATH=$SPARK_HOME:$PATH
@@ -28,7 +28,7 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
    
   8. Run the following command: 
    source ~/.profile
-   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
+   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \n
    bash Anaconda3-4.2.0-Linux-x86_64.sh
    which python /usr/bin/python
    source .bashrc
