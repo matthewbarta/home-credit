@@ -1,0 +1,12 @@
+Title: STATUS_C                       Correlation: -0.02064	Status: very weak                                         
+Title: SK_ID_BUREAU                   Correlation: -0.007517	Status: very weak                                         
+Title: STATUS_X                       Correlation: 0.000449	Status: very weak                                         
+Title: SK_ID_CURR                     Correlation: 0.000909	Status: very weak                                         
+Title: STATUS_4                       Correlation: 0.003232	Status: very weak                                         
+Title: STATUS_3                       Correlation: 0.003482	Status: very weak                                         
+Title: STATUS_2                       Correlation: 0.00443	Status: very weak                                         
+Title: STATUS_5                       Correlation: 0.009201	Status: very weak                                         
+Title: STATUS_1                       Correlation: 0.013404	Status: very weak                                         
+Title: STATUS_0                       Correlation: 0.017265	Status: very weak                                         
+Title: MONTHS_BALANCE                 Correlation: 0.027773	Status: very weak                                         
+Title: TARGET                         Correlation:   1.0	Status: very strong                                       

@@ -1,0 +1,9 @@
+Title: NUM_INSTALMENT_NUMBER          Correlation: -0.01619	Status: very weak                                         
+Title: NUM_INSTALMENT_VERSION         Correlation: -0.009896	Status: very weak                                         
+Title: AMT_PAYMENT                    Correlation: -0.003623	Status: very weak                                         
+Title: SK_ID_CURR                     Correlation: -0.00254	Status: very weak                                         
+Title: AMT_INSTALMENT                 Correlation: -0.001498	Status: very weak                                         
+Title: SK_ID_PREV                     Correlation: -0.000212	Status: very weak                                         
+Title: DAYS_INSTALMENT                Correlation: 0.034974	Status: very weak                                         
+Title: DAYS_ENTRY_PAYMENT             Correlation: 0.035122	Status: very weak                                         
+Title: TARGET                         Correlation:   1.0	Status: very strong                                       

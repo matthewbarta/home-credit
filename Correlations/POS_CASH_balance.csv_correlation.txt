@@ -1,0 +1,17 @@
+Title: SK_ID_CURR                     Correlation: -0.002245	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Active    Correlation: -0.001915	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_XNA       Correlation: -0.000136	Status: very weak                                         
+Title: SK_ID_PREV                     Correlation: -5.6e-05	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Approved  Correlation: 0.00017	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Completed Correlation: 0.000412	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Canceled  Correlation: 0.000423	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Signed    Correlation: 0.001669	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Returned_to_the_store Correlation: 0.002596	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Demand    Correlation: 0.006062	Status: very weak                                         
+Title: NAME_CONTRACT_STATUS_Amortized_debt Correlation: 0.006732	Status: very weak                                         
+Title: SK_DPD_DEF                     Correlation: 0.008594	Status: very weak                                         
+Title: SK_DPD                         Correlation: 0.009866	Status: very weak                                         
+Title: CNT_INSTALMENT                 Correlation: 0.018506	Status: very weak                                         
+Title: MONTHS_BALANCE                 Correlation: 0.020147	Status: very weak                                         
+Title: CNT_INSTALMENT_FUTURE          Correlation: 0.021972	Status: very weak                                         
+Title: TARGET                         Correlation:   1.0	Status: very strong                                       
