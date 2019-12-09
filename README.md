@@ -14,37 +14,50 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
   3. Set the instance type to t2.xlarge.
   4. Set the storage size to 16+ GB.
   
-  5. Install scala using the following command: \
-      sudo apt-get install python scala ipython -y
+  5. Install scala using the following command:
+  ```
+  sudo apt-get install python scala ipython -y
+  ```
    
-  6. Install spark with the following commands: \
-      wget http://archive.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz \
+  6. Install spark with the following commands:
+  ```
+      wget http://archive.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz
       tar -zxvf spark-2.2.0-bin-hadoop2.7.tgz
+   ```
    
-  7. Open ~/.profile and append the following lines: \
-      export SPARK_HOME='/home/ubuntu/spark-2.2.0-bin-hadoop2.7' \
-      export PATH=$SPARK_HOME:$PATH \
-      export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH \
+  7. Open ~/.profile and append the following lines:
+  ```
+   export SPARK_HOME='/home/ubuntu/spark-2.2.0-bin-hadoop2.7'
+   export PATH=$SPARK_HOME:$PATH
+   export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+  ```
    
-  8. Run the following command: \
-      source ~/.profile \
-      wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \
-      bash Anaconda3-4.2.0-Linux-x86_64.sh \
-      which python /usr/bin/python \
-      source .bashrc
+  8. Run the following command:
+  ```
+   source ~/.profile \
+   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \
+   bash Anaconda3-4.2.0-Linux-x86_64.sh \
+   which python /usr/bin/python \
+   source .bashrc
+  ```
    
-  8. Open ipython and run the following commands:  \
+  8. Open ipython and run the following commands: 
+  ```
   from IPython.lib import passwd \
   passwd()
+  ```
   
   9. Exit and run the following commands: \
-   jupyter notebook --generate-config \
-   mkdir certs \
-   cd certs \
-   sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem \
+  ```
+   jupyter notebook --generate-config 
+   mkdir certs 
+   cd certs 
+   sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem 
    cd ~/.jupyter/
+   ```
    
-  10. Open jupyter_notebook_config.py and append the following lines to the start of the file: \
+  10. Open jupyter_notebook_config.py and append the following lines to the start of the file:
+  ```
      c = get_config()
 
      # Kernel config
@@ -60,12 +73,15 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
      #the encrypted password we generated above
      # It is a good idea to put it on a known, fixed port
      c.NotebookApp.port = 8888”
+  ```
   
-  11. Exit and run the following commands: \
-   echo "export PATH=$PATH:/home/ubuntu/spark-2.2.0-bin-hadoop2.7" >> ~/.profile \
-   echo "export PYSPARK_DRIVER_PYTHON=ipython" >> ~/.profile \
-   echo "export PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark" >> ~/.profile \
-   source ~/.profile
+  11. Exit and run the following commands:
+  ```
+      echo "export PATH=$PATH:/home/ubuntu/spark-2.2.0-bin-hadoop2.7" >> ~/.profile
+      echo "export PYSPARK_DRIVER_PYTHON=ipython" >> ~/.profile
+      echo "export PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark" >> ~/.profile
+      source ~/.profile
+   ```
    
   12. Type pyspark to open up the ipython notebook
 
