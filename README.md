@@ -9,17 +9,17 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
 
 # Running the Project 
 
-  1. In AWS, set the region to us-east-2, Ohio. \
-  2. Launch an EC2 instance with the AMI ami-054eaaeb377484366. This EC2 has Spark preconfigured. \
-  3. Set the instance type to t2.xlarge. \
-  4. Set the storage size to 16+ GB. \
+  1. In AWS, set the region to us-east-2, Ohio.
+  2. Launch an EC2 instance with the AMI ami-054eaaeb377484366. This EC2 has Spark preconfigured.
+  3. Set the instance type to t2.xlarge.
+  4. Set the storage size to 16+ GB.
   
   5. Install scala using the following command: \
    sudo apt-get install python scala ipython -y
    
   6. Install spark with the following commands: \
    wget http://archive.apache.org/dist/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz \
-   tar -zxvf spark-2.2.0-bin-hadoop2.7.tgz \
+   tar -zxvf spark-2.2.0-bin-hadoop2.7.tgz
    
   7. Open ~/.profile and append the following lines: \
    export SPARK_HOME='/home/ubuntu/spark-2.2.0-bin-hadoop2.7' \
