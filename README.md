@@ -57,7 +57,7 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
      c.NotebookApp.open_browser = False
      #so that the ipython notebook does not opens up a browser by default
      c.NotebookApp.password = u'YOUR JUPYTER NOTEBOOK PASSWORD'
-     \#the encrypted password we generated above
+     #the encrypted password we generated above
      # It is a good idea to put it on a known, fixed port
      c.NotebookApp.port = 8888”
   
