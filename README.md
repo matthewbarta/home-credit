@@ -34,20 +34,20 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
    
   8. Run the following command:
   ```
-   source ~/.profile \
-   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \
-   bash Anaconda3-4.2.0-Linux-x86_64.sh \
-   which python /usr/bin/python \
+   source ~/.profile
+   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
+   bash Anaconda3-4.2.0-Linux-x86_64.sh
+   which python /usr/bin/python
    source .bashrc
   ```
    
   8. Open ipython and run the following commands: 
   ```
-  from IPython.lib import passwd \
+  from IPython.lib import passwd
   passwd()
   ```
   
-  9. Exit and run the following commands: \
+  9. Exit and run the following commands:
   ```
    jupyter notebook --generate-config 
    mkdir certs 
