@@ -7,22 +7,23 @@ There are many consumers out there seeking loans, yet lacking the substantial cr
 # Dataset
 The dataset consists of 9 CSV files that together form around 2.5 gigabytes of raw data. There is an additional CSV file in the dataset used to describe the meaning of the columns of the other CSV file. There are two files, application_test and application_train, that can be used to provide a baseline for the algorithms we will use to predict the chances of a client paying back a line. In order to provide the best predictions, however, we will be using the data within the 7 other CSV files.
 
+# Running the Project 
 
 1. In AWS, set the region to us-east-2, Ohio.
 2. Launch an EC2 instance with the AMI ami-054eaaeb377484366. This EC2 has Spark preconfigured.
 3. Set the instance type to t2.xlarge.
 4. Set the storage size to 16+ GB.
 
-SSH into the EC2 and install the following dependencies.
+# SSH into the EC2 and install the following dependencies.
 
-#S3FS
+# S3FS
 Run the following commands:
 pip install s3fs
 nano ~/.aws/credentials
 
 Change the key and key ID to match your credentials
 
-#LightGBM
+# LightGBM
 
 Run the following commands:
 sudo apt install cmake
@@ -37,7 +38,7 @@ python setup.py install
 pip install setuptools wheel numpy scipy scikit-learn -U
 conda update scikit-learn
 
-#Installing XGBoost with IPython
+# Installing XGBoost with IPython
 
 git clone --recursive https://github.com/dmlc/xgboost
 cd xgboost
