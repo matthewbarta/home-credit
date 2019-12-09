@@ -45,21 +45,21 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
    cd ~/.jupyter/
    
   10. Open jupyter_notebook_config.py and append the following lines to the start of the file: \
-  c = get_config() \
-  
-  \# Kernel config \
-  c.IPKernelApp.pylab = 'inline' \
-  \# if you want plotting support always in your notebook# Notebook config \
-  c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' \
-  \#location of your certificate file \
-  \# Set ip to '*' to bind on all interfaces (ips) for the public server \
-  c.NotebookApp.ip = '*' \
-  c.NotebookApp.open_browser = False \
-  \#so that the ipython notebook does not opens up a browser by default \
-  c.NotebookApp.password = u'YOUR JUPYTER NOTEBOOK PASSWORD' \
-  \#the encrypted password we generated above \
-  \# It is a good idea to put it on a known, fixed port \
-  c.NotebookApp.port = 8888”
+     c = get_config() \
+
+     \# Kernel config \
+     c.IPKernelApp.pylab = 'inline' \
+     \# if you want plotting support always in your notebook# Notebook config \
+     c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' \
+     \#location of your certificate file \
+     \# Set ip to '*' to bind on all interfaces (ips) for the public server \
+     c.NotebookApp.ip = '*' \
+     c.NotebookApp.open_browser = False \
+     \#so that the ipython notebook does not opens up a browser by default \
+     c.NotebookApp.password = u'YOUR JUPYTER NOTEBOOK PASSWORD' \
+     \#the encrypted password we generated above \
+     \# It is a good idea to put it on a known, fixed port \
+     c.NotebookApp.port = 8888”
   
   11. Exit and run the following commands: \
    echo "export PATH=$PATH:/home/ubuntu/spark-2.2.0-bin-hadoop2.7" >> ~/.profile \
