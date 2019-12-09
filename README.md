@@ -26,12 +26,12 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
    export PATH=$SPARK_HOME:$PATH
    export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
    
-  8. Run the following command: 
-   source ~/.profile
-   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \n
-   bash Anaconda3-4.2.0-Linux-x86_64.sh
-   which python /usr/bin/python
-   source .bashrc
+  8. Run the following command: \
+   source ~/.profile \
+   wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh \
+   bash Anaconda3-4.2.0-Linux-x86_64.sh \
+   which python /usr/bin/python \
+   source .bashrc \
    
   8. Open ipython and run the following commands: 
   from IPython.lib import passwd 
