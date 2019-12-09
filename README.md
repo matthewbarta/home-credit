@@ -18,15 +18,17 @@ The dataset consists of 9 CSV files that together form around 2.5 gigabytes of r
 
 ## S3FS
 Run the following commands:
+```
 pip install s3fs
 nano ~/.aws/credentials
+```
 
 Change the key and key ID to match your credentials
+
 
 ## Installing LightGBM with IPython
 
 ```
-Run the following commands:
 sudo apt install cmake
 git clone --recursive https://github.com/microsoft/LightGBM
 cd LightGBM
