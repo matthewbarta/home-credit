@@ -25,6 +25,7 @@ Change the key and key ID to match your credentials
 
 ## Installing LightGBM with IPython
 
+```
 Run the following commands:
 sudo apt install cmake
 git clone --recursive https://github.com/microsoft/LightGBM
@@ -37,9 +38,11 @@ cd ../python-package
 python setup.py install
 pip install setuptools wheel numpy scipy scikit-learn -U
 conda update scikit-learn
+```
 
 ## Installing XGBoost with IPython
 
+```
 git clone --recursive https://github.com/dmlc/xgboost
 cd xgboost
 mkdir build
@@ -50,4 +53,5 @@ make -j4
 cd ~
 export PYTHONPATH=~/xgboost/python-package
 conda update pandas
+```
 
